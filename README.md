@@ -5,7 +5,8 @@ dolor sit amet, consectetur adipiscing elit. Nullam tristique feugiat feugiat. D
 Edit made on the London Underground 
 
 * [CSV](loremipsum.csv)
-* [TXT](loremipsim.txt)
+* [PDF](loremipsum.pdf)
+* [TXT](loremipsum.txt)
 
 Sed in sagittis dui. Fusce fermentum luctus tempus. Donec nec odio volutpat, accumsan dui id, pretium massa. Integer venenatis bibendum leo, feugiat aliquam neque aliquam ut. Quisque dignissim rutrum malesuada. Donec a eros tristique, porta urna vel, posuere neque. Etiam ac commodo enim.
 
