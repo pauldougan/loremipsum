@@ -1,0 +1,6 @@
+blockdiag {
+
+Lorem -> ipsum -> dolor -> sit -> amet
+Lorem -> consectetur
+
+}
