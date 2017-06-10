@@ -1,4 +1,4 @@
-Lorem ipsum
+Lorem Ipsum
 ===========
 dolor sit amet, consectetur adipiscing elit. Nullam tristique feugiat feugiat. Donec convallis quam pulvinar consectetur dictum. Morbi ut nunc sem. Cras pulvinar velit at mauris porta ullamcorper. In aliquam sapien et sapien pellentesque commodo. Morbi in commodo libero. Nam non aliquet ligula.
 
