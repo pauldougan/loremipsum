@@ -8,6 +8,7 @@
 |[loremipsum.epub](loremipsum.epub)| ePub electronic book format|
 |[loremipsum.gv](loremipsum.gv)| graphviz directed directed graph |
 |[loremipsum.html](loremipsum.html)| HTML Hypertext Markup Language |
+|[loremipsum.ico](loremipsum.ico)| Favicon |
 |[loremipsum.jpeg](loremipsum.jpeg)| JPEG image |
 |[loremipsum.json](loremipsum.json)| JavaScript Object Notation|
 |[loremipsum.jsonp](loremipsum.jsonp)|  JavaScript Object Notation with padding|
