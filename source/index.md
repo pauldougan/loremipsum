@@ -2,7 +2,7 @@
 |------|-------------|
 |[loremipsum.aiff](loremipsum.aiff)| aiff |
 |[loremipsum.azw](loremipsum.azw)| Amazon Kindle |
-|[loremipsum.asciinema.cast](loremipsum.asciinema.cast)| Asciinemai cast format |
+|[loremipsum.asciinema.cast](loremipsum.asciinema.cast)| [Asciinema](https://asciinema.org) cast format |
 |[loremipsum.blockdiag](loremipsum.blockdiag)| Blockdiag Python image format|
 |[loremipsum.csv](loremipsum.csv)| Comma seperated values |
 |[loremipsum.doc](loremipsum.doc)| Microsoft Word |
