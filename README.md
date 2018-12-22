@@ -8,7 +8,7 @@ The build will produce a docker image and the content may be used to host a smal
 - a local docker machine
 - a container hosting platform like AWS ECS
 
-See the [project board](https://github.com/dougapd/loremipsum/projects/1) for more info
+See the [project board](https://github.com/dougapd/loremipsum/projects/1?fullscreen=true) for more info
 
 ## Getting Started
 
