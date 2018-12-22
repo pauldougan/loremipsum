@@ -39,3 +39,16 @@
 |[loremipsum.xlsx](loremipsum.xlsx)| Microsoft Excel |
 |[loremipsum.xml](loremipsum.xml)| XML Extensible Markup Language |
 |[loremipsum.yaml](loremipsum.yaml)| YAML Ain't Markup Language |
+|[loremipsum.asciidoc.txt](loremipsum.asciidoc.txt)| Asciidoc |
+|[loremipsum.commonmark.txt](loremipsum.commonmark.txt)| Commonmark |
+|[loremipsum.context.txt](loremipsum.context.txt)| Context |
+|[loremipsum.emacs.txt](loremipsum.emacs.txt)| Emacs org |
+|[loremipsum.gfm.md](loremipsum.gfm.md)| Git Flavoured Markdown |
+|[loremipsum.haddock.txt](loremipsum.haddock.txt| Haddock |
+|[loremipsum.mediawiki.txt](loremipsum.mediawiki.txt| Mediawiki |
+|[loremipsum.odt](loremipsum.odt| ODT |
+|[loremipsum.opendocument.xml](loremipsum.opendocument.xml| Opendocument |
+|[loremipsum.opendocument.opml](loremipsum.opml| OPML |
+|[loremipsum.restructuredtext.txt](loremipsum.restructuredtext.txt| restructuredtext |
+|[loremipsum.opendocument.tex](loremipsum.opendocument.tex| Latex |
+|[loremipsum.opendocument.terxtile](loremipsum.opendocument.textile| Textile |
