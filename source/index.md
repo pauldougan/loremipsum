@@ -1,7 +1,8 @@
 | File | Description |
 |------|-------------|
+|[loremipsum.aiff](loremipsum.aiff)| aiff |
 |[loremipsum.azw](loremipsum.azw)| Amazon Kindle |
-|[loremipsum.asciinema.cast](loremipsum.asciinema.cast)| Asciinemai cast format |
+|[loremipsum.asciinema.cast](loremipsum.asciinema.cast)| [Asciinema](https://asciinema.org) cast format |
 |[loremipsum.blockdiag](loremipsum.blockdiag)| Blockdiag Python image format|
 |[loremipsum.csv](loremipsum.csv)| Comma seperated values |
 |[loremipsum.doc](loremipsum.doc)| Microsoft Word |
@@ -19,7 +20,9 @@
 |[loremipsum.mobi](loremipsum.mobi)| Mobipocket electronic book |
 |[loremipsum.mov](loremipsum.mov)| MOV Video |
 |[loremipsum.mp3](loremipsum.mp3)| MP3 Audio|
+|[loremipsum.m4a](loremipsum.m4a)| m4a |
 |[loremipsum.numbers](loremipsum.numbers)| Apple Number Spreadsheet |
+|[loremipsum.ogg](loremipsum.ogg)| ogg |
 |[loremipsum.pages](loremipsum.pages/)| Apple Pages Wordprocessor |
 |[loremipsum.pdf](loremipsum.pdf)| Adobe Acrobat|
 |[loremipsum.png](loremipsum.png)| PNG Portable Network Graphics image |
@@ -32,6 +35,7 @@
 |[loremipsum.tiff](loremipsum.tiff)| TIFF image |
 |[loremipsum.txt](loremipsum.txt)| ASCII Text|
 |[loremipsum.vml](loremipsum.vml)| Vector Markup Language|
+|[loremipsum.wav](loremipsum.wav)| wav |
 |[loremipsum.xlsx](loremipsum.xlsx)| Microsoft Excel |
 |[loremipsum.xml](loremipsum.xml)| XML Extensible Markup Language |
 |[loremipsum.yaml](loremipsum.yaml)| YAML Ain't Markup Language |
