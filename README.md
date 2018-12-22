@@ -37,11 +37,9 @@ make build
 
 To make changes, add new files into the root folder and update the index.md file which contains links to all the content.
 
-If necessary use the Makefile to generate alternate lorem ipsum files and ensure that all the prerequisites are available in place.  
+If necessary use the Makefile to generate alternate lorem ipsum files and ensure that all the prerequisites are available in place.
 
 ## Preview
-
-
 
 then run the tests to ensure it is consistent
 
