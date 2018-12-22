@@ -1,18 +1,55 @@
-Lorem Ipsum
-===========
-dolor sit amet, consectetur adipiscing elit. Nullam tristique feugiat feugiat. Donec convallis quam pulvinar consectetur dictum. Morbi ut nunc sem. Cras pulvinar velit at mauris porta ullamcorper. In aliquam sapien et sapien pellentesque commodo. Morbi in commodo libero. Nam non aliquet ligula.
+# Lorem Ipsum Documentation
+
+This is a sample project containing a set of small files in a wide variety of formats useful for testing tools, content management systems, collaboration tools.
+
+The build will produce a docker image and the content may be used to host a small website using:
+
+- a local web server
+- a local docker machine
+- a container hosting platform like AWS ECS
+
+## Getting Started
+
+Clone this repository to a folder on your computer.
+
+Install Python with PIP. This can be done in a number of ways including [`homebrew`](https://brew.sh/) as follows:
+
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+brew update
+brew install python
+```
+
+In the application folder, type the following to install the prerequisites:
+
+```
+make dependencies
+```
+
+Use make to build the content
+
+```
+make build
+```
+
+## Making Changes
+
+To make changes, add new files into the root folder and update the index.md file which contains links to all the content.
+
+If necessary use the Makefile to generate alternate lorem ipsum files and ensure that all the prerequisites are available in place.  
+
+## Preview
 
 
-* [CSV](loremipsum.csv)
-* [JPEG](loremipsum.jpeg)
-* [PDF](loremipsum.pdf)
-* [TXT](loremipsum.txt)
 
-Sed in sagittis dui. Fusce fermentum luctus tempus. Donec nec odio volutpat, accumsan dui id, pretium massa. Integer venenatis bibendum leo, feugiat aliquam neque aliquam ut. Quisque dignissim rutrum malesuada. Donec a eros tristique, porta urna vel, posuere neque. Etiam ac commodo enim.
+then run the tests to ensure it is consistent
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum aliquam at purus convallis rhoncus. Praesent vitae aliquet risus. Cras ut justo ac diam pulvinar facilisis. Donec aliquet enim in massa ultrices, sit amet posuere purus mollis. Integer pretium accumsan diam dapibus euismod. Aliquam id luctus quam, quis mollis ante. Phasellus rhoncus turpis et felis lacinia, quis mollis nibh feugiat.
+```
+make tests
+```
 
-![logo](loremipsum.jpeg)
+## License
 
 [LICENSE](LICENSE.txt)
 

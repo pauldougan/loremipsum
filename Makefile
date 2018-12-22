@@ -18,7 +18,7 @@ dependencies: ## Install dependencies
 .PHONY: build
 build: ## Builds the project
 	@echo "Generate files..."
-	pandoc index.md > index.html 
+	pandoc index.md > index.html
 
 .PHONY: clean
 clean: ## Clean out the filesystem
@@ -34,9 +34,13 @@ test-filesystem: build ## checks links against the build dir directly
 
 .PHONY: test-local-http
 test-local-http: build ## checks links against the build dir over HTTP
-	python -m SimpleHTTPServer $(SERVER_PORT) \
+	ruby \
+	  -run \
+	  -ehttpd \
+	  ./build/ \
+	  -p$(SERVER_PORT) \
 	>/dev/null 2>&1 & SERVER_PID=$$! ; \
-	$(LINKCHECKER) http://localhost:$(SERVER_PORT)/index.html ; \
+	$(LINKCHECKER) http://localhost:$(SERVER_PORT) ; \
 	LINKCHECKER_STATUS=$$? ; \
 	kill $${SERVER_PID} ; \
 	exit $${LINKCHECKER_STATUS}

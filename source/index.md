@@ -8,7 +8,7 @@
 |[loremipsum.eps](loremipsum.eps)| Encapsulated Postscript |
 |[loremipsum.epub](loremipsum.epub)| ePub electronic book format|
 |[loremipsum.figlet.txt](loremipsum.figlet.txt)| Text output from figlet |
-|[loremipsum.gv](loremipsum.gv)| graphviz directed directed graph |
+|[loremipsum.graphviz.dot](loremipsum.graphviz.dot)| graphviz directed graph |
 |[loremipsum.html](loremipsum.html)| HTML Hypertext Markup Language |
 |[loremipsum.ico](loremipsum.ico)| Favicon |
 |[loremipsum.jpeg](loremipsum.jpeg)| JPEG image |
@@ -33,5 +33,5 @@
 |[loremipsum.txt](loremipsum.txt)| ASCII Text|
 |[loremipsum.vml](loremipsum.vml)| Vector Markup Language|
 |[loremipsum.xlsx](loremipsum.xlsx)| Microsoft Excel |
-|[loremipsum.xml](loremipsum.xml)| XML Extensibel Markup Language |
+|[loremipsum.xml](loremipsum.xml)| XML Extensible Markup Language |
 |[loremipsum.yaml](loremipsum.yaml)| YAML Ain't Markup Language |
