@@ -1,3 +1,8 @@
+Lorem Ipsum
+===========
+
+Various test files for testing the things
+
 | File | Description |
 |------|-------------|
 |[loremipsum.aiff](loremipsum.aiff)| aiff |
@@ -52,3 +57,7 @@
 |[loremipsum.xlsx](loremipsum.xlsx)| Microsoft Excel |
 |[loremipsum.xml](loremipsum.xml)| XML Extensible Markup Language |
 |[loremipsum.yaml](loremipsum.yaml)| YAML Ain't Markup Language |
+
+---
+
+[GITHUB](https://github.com/dougapd/loremipsum) | [ISSUES](https://github.com/dougapd/loremipsum/issues) | [PROJECT](https://github.com/dougapd/loremipsum/projects/1?fullscreen=true) | [WIKI](https://github.com/dougapd/loremipsum/wiki)
