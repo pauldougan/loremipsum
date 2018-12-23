@@ -18,12 +18,12 @@ dependencies: ## Install dependencies
 .PHONY: build
 build: ## Builds the project
 	@echo "Generate files..."
-	pandoc index.md > index.html
+	pandoc source/index.md > source/index.html
 
 .PHONY: clean
 clean: ## Clean out the filesystem
 	@echo "Clean up"
-	@rm -rvf index.html
+	rm -rvf source/index.html
 
 .PHONY: test
 test: test-filesystem test-local-http ## Runs the tests
