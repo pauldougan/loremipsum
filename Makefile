@@ -17,6 +17,7 @@ dependencies: ## Install dependencies
 	brew install csvkit
 	brew install ffmpeg
 	brew install figlet
+	brew install gawk
 	brew install gnu-sed
 	brew install jq
 	brew install xmlstarlet
