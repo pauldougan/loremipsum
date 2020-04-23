@@ -17,9 +17,10 @@ dependencies: ## Install dependencies
 	brew install csvkit
 	brew install ffmpeg
 	brew install figlet
+	brew install gnu-sed
 	brew install jq
-	brew install yq
 	brew install xmlstarlet
+	brew install yq
 	brew install graphviz
 	brew install pandoc
 	python3 -m venv venv
