@@ -17,6 +17,9 @@ dependencies: ## Install dependencies
 	brew install csvkit
 	brew install ffmpeg
 	brew install figlet
+	brew install jq
+	brew install yq
+	brew install xmlstarlet
 	brew install graphviz
 	brew install pandoc
 	python3 -m venv venv
@@ -30,9 +33,13 @@ all: ## Builds the project
 	figlet 'lorem ipsum' > build/loremipsum.figlet.txt
 	scripts/loremipsum.md.py > build/loremipsum.md
 	scripts/loremipsum.csv.py > build/loremipsum.csv
+	csvjson build/loremipsum.csv | jq > build/loremipsum.json
+	yq r -P build/loremipsum.json > build/loremipsum.yaml
 	pandoc -f markdown build/loremipsum.md -t html5 -o build/loremipsum.html
 	pandoc -f markdown build/loremipsum.md -t docx -o build/loremipsum.docx
 	pandoc -f markdown build/loremipsum.md -t odt -o build/loremipsum.odt
+	pandoc -f markdown build/loremipsum.md -t rtf -o build/loremipsum.rtf
+	tree build
 	
 .PHONY: clean
 clean: ## Clean out the filesystem
