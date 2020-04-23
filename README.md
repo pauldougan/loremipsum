@@ -1,6 +1,6 @@
-# Lorem Ipsum Documentation
+# Lorem Ipsum
 
-This is a sample project containing a set of small files in a wide variety of formats useful for testing tools, content management systems, collaboration tools.
+A sample project containing a set of small files in a wide variety of formats useful for testing tools, content management systems, collaboration tools.
 
 The build will produce a number of files in the `build` directory and the content may be used to host a small website using:
 
