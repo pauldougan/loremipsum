@@ -1,7 +1,0 @@
-graph G {
-"Lorem" -- {"ipsum"; "dolor"; "sit"; "amet"}  
-"dolor" -- "consectetur" -- { "adipiscing" "elit" }
-"sit" -- "Pellentesque" -- { "euismod" "neque" } 
-"elit" -- "in" -- {"tincidunt"}  
-"tincidunt" -- {"mauris"; "est"; "laoreet"} 
-}

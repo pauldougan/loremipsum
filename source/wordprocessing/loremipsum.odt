@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<office:document-content xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" office:version="1.2">
+  <office:font-face-decls>
+    <style:font-face style:name="Courier New" style:font-family-generic="modern" style:font-pitch="fixed" svg:font-family="'Courier New'" />
+  </office:font-face-decls>
+  <office:automatic-styles>
+    <style:style style:name="fr2" style:family="graphic" style:parent-style-name="Formula"><style:graphic-properties style:vertical-pos="middle" style:vertical-rel="paragraph-content" style:horizontal-pos="center" style:horizontal-rel="paragraph-content" style:wrap="none" /></style:style>
+    <style:style style:name="fr1" style:family="graphic" style:parent-style-name="Formula"><style:graphic-properties style:vertical-pos="middle" style:vertical-rel="text" /></style:style>
+  </office:automatic-styles>
+<office:body>
+<office:text>
+<text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="lorem-ipsum-dolor-sit-amet" />Lorem
+ipsum dolor sit
+amet<text:bookmark-end text:name="lorem-ipsum-dolor-sit-amet" /></text:h>
+<text:p text:style-name="First_20_paragraph">consectetur adipiscing
+elit. Pellentesque euismod, neque in tincidunt tincidunt, mauris est
+laoreet nibh, et suscipit tellus nibh et tellus. Quisque laoreet magna
+odio, nec ornare dolor. Aliquam tincidunt venenatis sollicitudin. Nulla
+vel est velit, a cursus arcu. Cras sed nibh eu tortor eleifend feugiat.
+Vestibulum id tellus sit amet dui faucibus blandit. Nam commodo nisl ac
+magna tincidunt iaculis. Quisque vehicula tellus sed arcu faucibus in
+tempus libero ultricies. Cras volutpat rhoncus consequat. Aenean
+tristique lorem vitae lorem blandit sed dapibus dolor lacinia.
+Pellentesque habitant morbi tristique senectus et netus et malesuada
+fames ac turpis egestas. Aliquam non magna mi.</text:p>
+<text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="aenean-accumsan-ullamcorper-risus" />Aenean
+accumsan ullamcorper
+risus<text:bookmark-end text:name="aenean-accumsan-ullamcorper-risus" /></text:h>
+<text:p text:style-name="First_20_paragraph">nec hendrerit urna mattis
+ut. Quisque faucibus facilisis ante, convallis viverra dui volutpat
+sodales. Praesent blandit, neque in congue eleifend, libero nibh
+elementum ante, in sollicitudin ante eros eu risus. Proin at sapien
+felis, in molestie sem. Mauris non lorem augue. Praesent malesuada, arcu
+sed fringilla auctor, eros erat commodo risus, in ultrices dui dui sed
+enim. Maecenas venenatis facilisis urna sit amet hendrerit. Mauris
+mattis orci eu mi cursus auctor. Suspendisse feugiat, lacus id semper
+faucibus, erat augue malesuada dui, vel sollicitudin libero sapien sit
+amet elit. Aenean laoreet malesuada arcu, nec placerat dui bibendum
+vitae. Suspendisse potenti. Proin eu dignissim tortor. Aenean accumsan
+fermentum malesuada. Sed facilisis lacus felis. Vestibulum non odio eget
+neque vulputate posuere ut sed eros. Suspendisse potenti.</text:p>
+<text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="sed-ut-odio-nec-ligula" />Sed
+ut odio nec
+ligula<text:bookmark-end text:name="sed-ut-odio-nec-ligula" /></text:h>
+<text:p text:style-name="First_20_paragraph">consectetur porttitor sit
+amet sed augue. Nullam elementum nunc ut leo facilisis eget congue justo
+pharetra. Aliquam dapibus laoreet magna a aliquet. Cras in est non
+mauris commodo hendrerit eu sit amet leo. Integer quis risus arcu, vitae
+mattis odio. Aenean ut nisi ac est ultricies semper. Morbi luctus lorem
+vitae erat mollis iaculis. Ut sit amet arcu metus, vel accumsan ligula.
+Phasellus vehicula luctus diam, nec interdum eros ullamcorper ac. Mauris
+eleifend, elit vulputate volutpat iaculis, elit lectus laoreet neque, ut
+auctor risus enim eget neque. Suspendisse fringilla lectus in nisi
+lacinia consectetur. In euismod venenatis elit non sodales. Duis nec
+mattis odio. Aenean lacinia quam sit amet nunc pulvinar ut blandit neque
+facilisis. Duis vitae nibh nec magna condimentum volutpat.</text:p>
+<text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="nullam-aliquet-libero" />Nullam
+aliquet
+libero<text:bookmark-end text:name="nullam-aliquet-libero" /></text:h>
+<text:p text:style-name="First_20_paragraph">nec eros porta pulvinar.
+Maecenas ornare porta ipsum, ac adipiscing diam semper in. Lorem ipsum
+dolor sit amet, consectetur adipiscing elit. Nunc ac mi velit. Curabitur
+lobortis justo sit amet nisl placerat scelerisque. Nunc sit amet tellus
+ac ante eleifend varius. Nunc blandit turpis ut sem pellentesque
+sagittis. In hac habitasse platea dictumst. Aliquam magna nisi,
+facilisis a congue in, feugiat sit amet massa. Vivamus tristique, enim
+eu consectetur scelerisque, risus lorem laoreet metus, ut laoreet mauris
+quam ut nisi. Nam ac rhoncus magna. Quisque ornare, mauris quis mattis
+varius, nisi nunc lobortis est, et vulputate enim augue id tortor.
+Aenean euismod dui a lorem aliquet aliquam. Lorem ipsum dolor sit amet,
+consectetur adipiscing elit. Aliquam ipsum nisi, ullamcorper nec
+elementum vitae, suscipit ut metus. Fusce sapien libero, posuere sodales
+placerat ut, congue nec ipsum.</text:p>
+<text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="pellentesque-non-tellus" />Pellentesque
+non
+tellus<text:bookmark-end text:name="pellentesque-non-tellus" /></text:h>
+<text:p text:style-name="First_20_paragraph">sapien, in imperdiet lacus.
+Quisque faucibus lacus vitae nunc mattis vel fringilla lacus molestie.
+Pellentesque accumsan orci sed nisl varius eu eleifend urna consequat.
+Nulla nec justo est. Mauris cursus pretium pulvinar. Nullam elementum
+ante et felis malesuada non auctor felis feugiat. Phasellus ipsum massa,
+ullamcorper nec sodales vel, auctor ut turpis. Suspendisse et purus
+vitae ligula elementum hendrerit eget in est.</text:p>
+</office:text>
+</office:body>
+</office:document-content>
