@@ -26,6 +26,8 @@ dependencies: ## Install dependencies
 	brew install pandoc
 	python3 -m venv venv
 	pip3 install -r requirements.txt
+	cf install-plugin -f open
+	cf install-plugin -f conduit
 
 all: ## Builds the project
 	@echo "Generate files..."
@@ -37,9 +39,12 @@ all: ## Builds the project
 	scripts/loremipsum.csv.py > build/loremipsum.csv
 	csvjson build/loremipsum.csv | jq > build/loremipsum.json
 	yq r -P build/loremipsum.json > build/loremipsum.yaml
-	pandoc -f markdown build/loremipsum.md -t html5 -o build/loremipsum.html
 	pandoc -f markdown build/loremipsum.md -t docx -o build/loremipsum.docx
+	pandoc -f markdown build/loremipsum.md -t haddock -o build/loremipsum.haddock
+	pandoc -f markdown build/loremipsum.md -t html5 -o build/loremipsum.html
+	pandoc -f markdown build/loremipsum.md -t man -o build/loremipsum.man
 	pandoc -f markdown build/loremipsum.md -t odt -o build/loremipsum.odt
+	pandoc -f markdown build/loremipsum.md -t opml -o build/loremipsum.opml 
 	pandoc -f markdown build/loremipsum.md -t rtf -o build/loremipsum.rtf
 	tree build
 	
