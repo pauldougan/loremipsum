@@ -1,12 +1,12 @@
-# Lorem Ipsum Documentation
+# Lorem Ipsum
 
-This is a sample project containing a set of small files in a wide variety of formats useful for testing tools, content management systems, collaboration tools.
+A sample project containing a set of small files in a wide variety of formats useful for testing tools, content management systems, collaboration tools.
 
-The build will produce a docker image and the content may be used to host a small website using:
+The build will produce a number of files in the `build` directory and the content may be used to host a small website using:
 
 - a local web server
-- a local docker machine
-- a container hosting platform like AWS ECS
+- docker
+- cloud foundry
 
 See the [project board](https://github.com/dougapd/loremipsum/projects/1?fullscreen=true) for more info
 
@@ -14,7 +14,7 @@ See the [project board](https://github.com/dougapd/loremipsum/projects/1?fullscr
 
 Clone this repository to a folder on your computer.
 
-Install Python with PIP. This can be done in a number of ways including [`homebrew`](https://brew.sh/) as follows:
+Install Python with pip. This can be done in a number of ways including [`homebrew`](https://brew.sh/) as follows:
 
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -32,14 +32,13 @@ make dependencies
 Use make to build the content
 
 ```
-make build
+make all
 ```
 
 ## Making Changes
 
-To make changes, add new files into the root folder and update the index.md file which contains links to all the content.
+To make changes, add new files into the `source` folder and update the index.md file which contains links to all the content. Ideally generate the files from existing ones.
 
-If necessary use the Makefile to generate alternate lorem ipsum files and ensure that all the prerequisites are available in place.
 
 ## Preview
 
