@@ -39,6 +39,9 @@ all: ## Builds the project
 	scripts/loremipsum.csv.py > build/loremipsum.csv
 	csvjson build/loremipsum.csv | jq > build/loremipsum.json
 	yq r -P build/loremipsum.json > build/loremipsum.yaml
+	pandoc -f markdown build/loremipsum.md -t commonmark -o build/loremipsum.commonmark.md
+	pandoc -f markdown build/loremipsum.md -t markdown_strict -o build/loremipsum.markdown_strict.md
+	pandoc -f markdown build/loremipsum.md -t gfm -o build/loremipsum.gfm.md
 	pandoc -f markdown build/loremipsum.md -t docx -o build/loremipsum.docx
 	pandoc -f markdown build/loremipsum.md -t haddock -o build/loremipsum.haddock
 	pandoc -f markdown build/loremipsum.md -t html5 -o build/loremipsum.html
