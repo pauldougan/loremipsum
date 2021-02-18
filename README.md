@@ -48,8 +48,8 @@ then run the tests to ensure it is consistent
 make tests
 ```
 
-## GitHub actions
-will use this repo to test out GitHub actions
+## GitHub actions and packages 
+will use this repo to test out GitHub actions and github packages
 
 
 ## License
